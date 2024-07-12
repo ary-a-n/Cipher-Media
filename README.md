@@ -4,8 +4,11 @@
 
 - **Tech Stack**: Python, Streamlit
 - **Libraries**: OpenCV-python, Pillow, NumPy
-  
-**Steganography** is the practice of concealing communication by embedding information within other data. This project enables users to hide secret messages within image, text, audio, and video files. The sender selects a cover file (image, audio, or video), embeds a secret text using efficient algorithms, and generates a stego file of the same format as the cover file. This stego file can then be transmitted via private or public communication networks. At the receiver's end, the stego file is downloaded and decoded using the appropriate algorithm to retrieve the hidden text.
+## Setup Instructions
+For detailed setup instructions, please refer to [Setup](setup.md)
+
+## About Steganography
+It is the practice of concealing communication by embedding information within other data. This project enables users to hide secret messages within image, text, audio, and video files. The sender selects a cover file (image, audio, or video), embeds a secret text using efficient algorithms, and generates a stego file of the same format as the cover file. This stego file can then be transmitted via private or public communication networks. At the receiver's end, the stego file is downloaded and decoded using the appropriate algorithm to retrieve the hidden text.
 
 ![Cover Image](https://user-images.githubusercontent.com/77832407/152796278-a60d3042-a6cd-442d-96e0-7f5a8b11f3ed.jpg)
 
