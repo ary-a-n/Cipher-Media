@@ -1,11 +1,19 @@
 # CipherMedia
 
-### Tech Stack and Libraries Used
+> [!IMPORTANT]
+> App works best when installed locally!
 
-- **Tech Stack**: Python, Streamlit
-- **Libraries**: OpenCV-python, Pillow, NumPy
+## Tech Stack and Py-Libraries used
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+<img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit logo" style="margin-top:50px"></img>
+
+
 ## Setup Instructions
 For detailed setup instructions, please refer to [Setup](Setup.md)
+- [Screenshots](#screenshots)
 
 ## About Steganography
 It is the practice of concealing communication by embedding information within other data. This project enables users to hide secret messages within image, text, audio, and video files. The sender selects a cover file (image, audio, or video), embeds a secret text using efficient algorithms, and generates a stego file of the same format as the cover file. This stego file can then be transmitted via private or public communication networks. At the receiver's end, the stego file is downloaded and decoded using the appropriate algorithm to retrieve the hidden text.
@@ -71,6 +79,11 @@ Video Steganography is a technique used to conceal secret messages within video 
    - Use the same key and algorithms (KSA and PRGA) to generate the same keystream used for encryption.
    - XOR the ciphertext from the video frames with the keystream to retrieve the plaintext.
 
-### Usage
+## Usage
 
 Video Steganography provides covert communication capabilities by concealing sensitive information within video files. It ensures data security and confidentiality during transmission and storage, making it suitable for applications requiring hidden data exchange and digital watermarking without compromising video quality.
+
+## Screenshots
+![project-1](https://github.com/user-attachments/assets/44fb62dc-ab2b-4da6-8b58-39dab99945c5)
+![project-2](https://github.com/user-attachments/assets/d14200eb-9e05-42ce-ad5f-8135d4802c6c)
+
